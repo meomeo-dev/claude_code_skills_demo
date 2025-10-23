@@ -1,0 +1,25 @@
+{
+  "name": "ai-skills-market",
+  "owner": {
+    "name": "Your Team",
+    "email": "owner@example.com"
+  },
+  "plugins": [
+    {
+      "name": "skill-factory-skill",
+      "source": "./",
+      "description": "Meta-skill to scaffold, document, and validate new Claude Agent Skills.",
+      "version": "0.1.0",
+      "category": "skills",
+      "strict": false,
+      "skills": [
+        "./skill-factory-skill"
+      ]
+    }
+  ],
+  "metadata": {
+    "description": "A marketplace of reusable Claude Agent Skills",
+    "version": "0.1.0",
+    "pluginRoot": ".."
+  }
+}
